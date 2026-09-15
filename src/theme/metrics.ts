@@ -1,0 +1,15 @@
+export const componentMetrics = {
+  buttonHeight: 48,
+  compactButtonHeight: 40,
+  searchFieldHeight: 62,
+  textFieldHeight: 48,
+  iconButtonSize: 44,
+  compactIconButtonSize: 40,
+  chipHeight: 36,
+  badgeHeight: 24,
+  bottomNavigationHeight: 70,
+  bottomNavigationItemMinWidth: 80,
+  bottomNavigationSideInset: 14,
+  bottomNavigationBottomInset: 10,
+  screenBottomClearance: 112,
+} as const;
