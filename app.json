@@ -4,14 +4,19 @@
     "slug": "shopymalls",
     "description": "Discover malls, stores, deals, events, and bookings across Jakarta.",
     "version": "1.0.0",
+    "icon": "./assets/images/app-icon.png",
     "orientation": "portrait",
     "scheme": "shopymalls",
     "userInterfaceStyle": "dark",
     "ios": {
-      "icon": "./assets/expo.icon",
+      "icon": "./assets/images/app-icon.png",
       "supportsTablet": false
     },
     "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#050505",
+        "foregroundImage": "./assets/images/app-icon-foreground.png"
+      },
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -23,7 +28,10 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#050505"
+          "backgroundColor": "#050505",
+          "image": "./assets/images/logo.png",
+          "imageWidth": 160,
+          "resizeMode": "contain"
         }
       ]
     ],

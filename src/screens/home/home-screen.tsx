@@ -55,13 +55,13 @@ function RailCardFrame({
 
 function BrandMark() {
   return (
-    <View className="h-12 w-11 items-center justify-end rounded-control border-2 border-lime pb-xs">
-      <View className="flex-row items-end gap-hairline">
-        <View className="h-4 w-1.5 rounded-xs bg-lime" />
-        <View className="h-7 w-1.5 rounded-xs bg-lime" />
-        <View className="h-5 w-1.5 rounded-xs bg-lime" />
-      </View>
-    </View>
+    <Image
+      accessibilityLabel="Shopymalls logo"
+      accessible
+      contentFit="contain"
+      source={require('../../../assets/images/logo.png')}
+      style={{ height: 48, width: 48 }}
+    />
   );
 }
 
