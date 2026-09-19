@@ -2,6 +2,7 @@
   "expo": {
     "name": "Shopymalls",
     "slug": "shopymalls",
+    "description": "Discover malls, stores, deals, events, and bookings across Jakarta.",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "shopymalls",
@@ -14,6 +15,7 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
+      "favicon": "./public/favicon.png",
       "output": "static"
     },
     "plugins": [
